@@ -1,0 +1,614 @@
+            @import url('https://fonts.googleapis.com/css?family=Lobster');
+            @import url('https://fonts.googleapis.com/css?family=Patua+One');
+            @import url('https://fonts.googleapis.com/css?family=Roboto');     /* Czocionki od GOOGLA */
+            
+         
+               
+            html, body, #menu {
+                min-height: 100%;
+                height: 100%;
+            }
+            
+            body 
+            {
+                
+                font-size: 12px;
+                font-family: "Roboto", cursive;
+                background: #aaa;
+                min-width: 100%;
+                height: 100%;
+                top: 0px;
+                margin: 0;
+                padding: 0;
+                
+            }
+            
+            #blad
+            {
+                border: 1px solid black;
+                font-size: 16px;
+                text-align: left;
+            }
+            
+            a 
+            {
+                color: white;
+                text-decoration: none;
+            }
+            
+            tytul
+            {
+                font-size: 19px;
+                font-family: "Roboto", cursive;
+                color: whitesmoke   ;
+                text-shadow:3px 3px 4px #444;
+            }
+            
+            #map 
+            {   
+                
+                margin    :0 auto;
+                margin-left: 151px;
+                box-shadow: 15px 15px 10px #888;           
+                border: 2px solid #444;
+                top:0px;
+                order: 2;
+                float: top; 
+                height: 100%;
+                
+                
+            }
+            
+            #mapadol
+            {
+                margin: 0 auto;
+                box-shadow: 15px 15px 10px #888;           
+                border: 2px solid #444;
+                
+                position: absolute;
+                top: 60px;
+                height: 500px;
+                width:100%;
+            }
+            #wszystko
+            {   
+                width     :700px;
+                
+                padding: 0;
+                left: 50%;
+                
+                background: #858587;
+                
+                border    :2px solid #88aa00; 
+                border-radius: 20px;
+                border-color:  #88aa00;
+                box-shadow: 15px 15px 10px #888;
+                
+                
+                margin: 0 auto;
+                
+                color:white;
+                font-family: 'roboto', cursive;
+                text-align: center;
+                display: none;
+            }
+            
+            #komunikat_logowania
+            { 
+                
+                text-indent: 10px;
+                text-shadow:3px 3px 4px #444;
+                font-size: 15pt;
+                margin-top: 20px;
+                font-family: 'Roboto', cursive;
+            }
+            
+            #komunikat
+            { 
+                text-align: center;
+                width: 500px;
+                padding: 5px;
+                margin    :0 auto;
+                background: #858587;
+                border    :2px solid #88aa00; 
+                border-radius: 20px;
+                left: 50%;
+                text-shadow:3px 3px 4px #444;
+                font-size: 15pt;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                box-shadow: 15px 15px 10px #888;
+            }
+            
+            #menu
+            {
+                
+                top: 0px;   
+                order:1;    
+                float: left;
+                width: 200px;
+                height: 100%;
+                background: #444444;
+                color:white;
+                text-align: left;
+                font-family: 'Lobster', cursive;
+                font-size: 16pt;
+                border-bottom:  2px solid black;
+                margin-top: 0px;
+                padding-top: 0px;
+                overflow: hidden;
+                position: relative;
+            }
+            
+            
+            
+            
+            
+            #menu > ul > li > div > img {
+                float: left;
+                
+            }
+            #menu > ul > li > a > div > img{
+                float: left;
+            }
+            #menu ul, #menu ul li {
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+            border: 0px;
+            display: block;
+            width: 200px;
+            text-align: center;
+            float: left;
+            
+            }
+            #menu_ikona
+            {
+                float: right;
+                margin-top: 15px;
+                margin-right: 10px;
+            }
+            
+            #menu ul li a
+            {
+                color: white;
+                font-family: "Roboto", cursive;
+                font-size: 12pt;
+                text-align: center;
+                position: relative;
+                top: 0px;
+                text-decoration: none;
+                height: 100%;
+            }
+            
+            .przyciski_menu
+            {
+                position: relative;
+                top: 0px;
+                float: top;
+                padding: 10px 20px 20px 10px;
+                text-align: center;
+                height: 10px;
+                
+                
+                
+            }
+             .przyciski_menu:hover
+            {   
+                background: #858587;
+                border-top: 1px solid;
+                border-bottom: 1px solid;
+                border-left: 1px solid;
+                border-color: black;
+                color:black;
+            }
+            
+            
+            
+            #logoMale
+            {
+                position: relative;
+                top: 0px;
+                float: left;
+                padding: 3px 3px 3px 3px;
+                text-align: center;
+            }
+            
+                
+            #dol
+            {
+                font-family: "Roboto", cursive;
+                font-size: 10pt;
+                margin:0px;
+                width: 100%;
+                display: none;
+                margin: 0px;
+                height: 100%;
+                
+                
+            }
+            
+            #formularz
+            {
+                float: left;
+                margin: 0;
+                border: 1px solid;
+                height: 100%;
+                background: #186FA7;
+                color: white;
+                font-family: "Roboto",cursive;
+                text-align: center;
+                display: block;
+                overflow: hidden;
+            }
+            #oknoMenu
+            {
+                float:left;
+                margin:0;
+                border: 1px solid;
+                height: 100%;
+                background: #186FA7;
+                color: white;
+                font-family: "Roboto",cursive;
+                font-size:12pt;
+                display: block;
+                text-align: center;
+                width: 150px;
+                
+            }
+            
+           
+            #oknoMenu #grupa ul
+            {
+                list-style: none;
+                width: 100%;
+                padding: 0px;
+                border: 0px;
+                margin: 0 auto;
+            }
+            #oknoMenu #grupa  
+            {
+            
+            margin: 0 auto;
+            padding-top: 75px;
+            border: 0px;
+            display: block;
+            width: 100%;
+            text-align: center;
+            float: left;
+            top: 0;
+            left: 0;
+                      
+            }
+            #oknoMenu #grupa div{
+                
+                
+                width: 100%;
+                height: 50px;
+                margin: 0 auto;
+                display: block;
+                line-height: 45px;
+                
+                
+                
+            }
+            #oknoMenu > #grupa a:hover div
+            {
+                background: #858587;
+                border-top: 1px solid;
+                border-bottom: 1px solid;
+                border-color: black;
+                
+                
+            }
+            #oknoMenu > #grupa a:hover div
+            {
+                color:black;
+            }
+            
+            #oknoMenu > #grupa > div > a 
+            {
+                margin-left: 5px;
+                padding-right: 5px;
+                
+                display: block;
+            }
+            
+            #formularz pre form
+            {
+                margin-left: 15px;
+                margin-right: 15px;
+            }
+            #ListaUzytkownikow
+            {
+                position: relative;
+                float:left;
+                margin: 0;
+                padding: 0;
+                display: block;
+                height: 100%;
+                background: white;
+                min-width: 600px;
+                background: #186FA7;
+                border-right: 1px solid white;
+                border-top: 1px solid white;
+                resize:  horizontal;
+            }
+            tbody
+            {
+                margin: 50px;
+            }
+            
+            #dol #formularz textarea
+            {
+                resize: none;
+            }
+            
+            #dol #formularz pre
+            {
+                
+                font-family: "Roboto", cursive;
+                font-size: 10pt;
+                text-shadow: 3px 3px 4px #444;
+            }
+            
+            #dol input
+            {
+                border: none;
+                border-radius: 13px;
+                background: #88aa00;
+                color:white;
+                font-family: 'Patua One', cursive;
+                font-size: 12pt;
+                
+                text-align: center;
+            }
+            
+            #dol input:hover
+            {
+                background: #EB6E08;
+            }
+            
+            .dol_dodaj_uzytkownika
+            {
+              
+                text-align: center;
+            }
+            #menuLewe
+            {
+               
+                position: absolute;
+                float:left;
+                left: 0px;
+                top: 0px;
+                width: 300px;
+                height: 100%;
+                background: #186FA7;
+                display:none;
+                font-family: 'Roboto', cursive;
+                margin-right: 0px;
+            }
+            
+            #lewo
+            {
+                float:left;
+                height: 100%;
+                width: 300px;
+                
+            }
+            #prawo
+            {
+                    
+                float:right;
+                position: relative;
+                top:0px;
+                left: 300px;
+                font-family: 'roboto', cursive;
+                height: 100%;
+                
+            }
+            
+            #zamknij_okno,  #zamknij_okno img
+            {
+                width: 16px;
+                height: 16px;
+                top: 3px;
+                right:3px;
+                float: right;
+                position: relative;
+                
+                
+            }
+            
+            
+            .przyciskUsunUzytkownika
+            {
+               
+                text-align: center;
+            }
+            
+           
+            #ikona_uzytkownika
+            {
+                
+            }
+            
+            
+            #wyloguj
+            {   
+                margin-top: 0px;
+                width     :100px;
+                height: 25px;
+                background: white;
+                border-radius: 20px;
+                border: none;
+                background: #EB6E08;
+                text-align: center;
+                float: bottom;
+                
+            }
+            
+            #wyloguj:hover
+            {
+                background: red;
+            }
+            a #wyloguj 
+            {
+                color: white;
+                font-family: "Patua One", cursive;
+                font-size: 12pt;
+                text-align: center;
+                position: relative;
+                top: 0px;
+                text-decoration: none;
+            }
+            
+            #glowna
+            {
+                position: relative;
+                top: 50px;
+            }
+            
+            #logo
+            {
+                font-family: 'Lobster', cursive;
+                font-size: 40pt;
+                text-align: center;
+                margin-top: 8px;
+                height: 100px;
+                line-height: 100px;
+                color: whitesmoke   ;
+                text-shadow:3px 3px 4px #444;
+                
+            }
+            #komunikat_logowania
+            {
+                color: #EB6E08;
+                font-family: 'Lobster', cursive;
+                font-size: 12pt;
+            }
+            .pola
+            {
+                font-family: 'Lobster', cursive;
+                font-size: 12pt;
+                text-align: center; 
+                margin-top: 8px;
+                text-shadow:3px 3px 4px #444;
+            }
+            
+            #logowanie{
+                font-family: 'Roboto', sans-serif;
+                font-size: 16pt;
+            }
+            #info{
+                font-family: 'Lobster', cursive;    
+                font-size: 12pt;
+                color: white;    
+            }
+            
+            #blad
+            {
+                color: #EB6E08;
+                background: #858587;
+                text-shadow:3px 3px 4px #444;
+                text-align: center;
+            }
+            input
+            {
+                border: none;
+                border-radius: 13px;
+                background: #88aa00;
+                color:white;
+                font-family: 'Patua One', cursive;
+                font-size: 12pt;    
+            }
+            
+            input:hover
+            {
+                background: #EB6E08;
+            }
+            label 
+            {
+                display: inline-block;   /*podpowiadarka jqueryui*/
+                width: 5em;
+            }
+            
+                      
+            table
+            
+            {
+                padding: 0;
+                margin: 0 auto;
+                width: 100%;
+                font-family: 'Roboto', cursive;
+                font-size: 12pt;
+                margin-top: 12px;
+                position: relative;
+                                 
+            }
+            
+            #kodyPocztowe
+            {
+                float:left;
+                margin:0;
+                border: 1px solid;
+                height: 100%;
+                background: #186FA7;
+                color: white;
+                font-family: "Roboto",cursive;
+                font-size:12pt;
+                display: block;
+                text-align: center;
+                min-width: 700px;
+                position: relative;
+            }
+            
+            td
+            {
+                text-shadow: 3px 3px 4px #444;
+                color: white;
+            }
+            
+            .przyciskKategoria
+            {
+                height: 100px;
+                width: 100px;
+                float: left;
+                margin-right: 17px;
+                margin-top: 10px;
+                font-family: 'Patua One', coursive;
+                font-size: 14px;
+                text-align: center;
+                line-height: 100px;
+                box-shadow: 15px 15px 10px #888;
+                border-radius: 20px;
+                border: 2px white solid;
+                color: white;
+            }
+            .formularzSrodek
+            {
+                float: left;
+                padding-top: 5px;
+                text-align: center;
+                margin-bottom: 5px;
+            }
+            .formularzSrodek input
+            {
+                text-align: center; 
+            }
+            .srodek
+            {
+                margin: 0 auto;
+                width: 390px;
+                padding-top: 5px;
+                
+            }
+            
+            
+            
+            
+/* 
+    Created on : 2017-06-14, 21:59:01
+    Author     : Adam
+*/
+
