@@ -164,4 +164,5 @@ else
     header("Location: index.php");
 }
 
-echo "</body></html>";
+echo "</body></html>"
+;

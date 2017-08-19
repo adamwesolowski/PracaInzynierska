@@ -10,23 +10,24 @@ pokazDol();
 potrzasnijBledem();
 
 
-function pokaz(){     
-    $('#wszystko' ).show( "fade", 2000 );
+function pokaz()  {$('#wszystko' ).show( "fade", 2000 );
 };
 
-function pokazDol()
-{
-    $('#dol').show("fade",500);
+function pokazDol() {$('#dol').show("fade",500);
 }
-function initMap() {
-        var uluru = {lat: 52.069167, lng: 19.480556};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 4,
-          center: uluru
-        });
-        
-      };
-      
+function initMap() { var uluru = {lat: 52.069167, lng: 19.480556}; var map = new google.maps.Map(document.getElementById('map'), {zoom: 4,center: uluru}); };
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 function potrzasnijBledem()
 {
     $("blad").effect("pulsate");
@@ -39,4 +40,4 @@ $( function() {
   } );
 $(function(){
     $("body").niceScroll();
-}
+});

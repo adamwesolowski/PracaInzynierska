@@ -140,7 +140,7 @@ _END;
 echo<<<_END
             <div id='formularz'> 
             <tytul>Samochody</tytul>
-            <div id='tabs'>
+            <div id="tabs">
   <ul>
     <li><a href="#tabs-1">Nunc tincidunt</a></li>
                 
